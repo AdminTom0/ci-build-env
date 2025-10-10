@@ -1,10 +1,10 @@
 name: CRD Environment Setup
-# Batch-ID: 1760054808227-0.7214045904690396
+# Batch-ID: 1760054936423-0.8687867195895949
 on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: windows-2025
+    runs-on: windows-latest
     steps:
       - name: Setup Dependencies
         run: |
